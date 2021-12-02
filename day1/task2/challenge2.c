@@ -35,9 +35,9 @@ int main()
 
 int slidingWindowCompare(FILE *fp)
 {
-    int ii = 0, counter = 0;
+    int counter = 0;
     char* ptr1, *ptr2, *ptr3;
-    int a, b, c, sum, sum2, sum3, diff;
+    int a, b, c, sum, sum2, diff;
 
     ptr1 = myGetLine(fp);
     ptr2 = myGetLine(fp);
@@ -79,7 +79,7 @@ int slidingWindowCompare(FILE *fp)
 
 }
 
-//Reads until it finds a newline char
+//Reads until it finds a return char
 char* myGetLine(FILE *fp)
 {
     int ii = 0, size;

@@ -57,7 +57,7 @@ int main()
     return 0;
 }
 
-//Reads until it finds a newline char
+//Reads until it finds a return char
 char* myGetLine(FILE *fp)
 {
     int ii = 0, size;
